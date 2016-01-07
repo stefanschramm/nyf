@@ -1,0 +1,9 @@
+CREATE TABLE files(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	poster VARCHAR(1024),
+	date DATETIME,
+	subject VARCHAR(1024),
+	guessed_filename VARCHAR(1024),
+	groups VARCHAR(1024)
+);
+
